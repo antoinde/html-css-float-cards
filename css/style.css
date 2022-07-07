@@ -3,8 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}/* /LAYOUT RESET */
 
+/* CORPO DELLA PAGINA*/
 body{
     font-family: 'Baloo 2', cursive;
     font-weight: 500;
@@ -15,6 +16,8 @@ body{
     min-width: 600px;
     margin: 0 auto;
 }
+/* /CORPO DELLA PAGINA*/
+
 
 /* HEADER LAYOUT */
 
@@ -36,7 +39,7 @@ p{
 
 main{}
 
-/* CLEARFIX */
+/* CLEARFIX al contenitore delle cards */
 main::after{
     content: "";
     display: table;
@@ -62,11 +65,11 @@ main::after{
     margin: 20px 10px;
 }
 
-.floating_card a{
-    color: #7F92FF;
+.floating_card a{ 
+    color: #7F92FF;  /*Colore del testo delle email*/
 }
 .floating_card a:hover{
-    cursor: pointer;
+    cursor: pointer;   /* Manina che compare sopra il link email */
 }
 
 img{
