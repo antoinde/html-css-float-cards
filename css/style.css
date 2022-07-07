@@ -5,10 +5,13 @@
     box-sizing: border-box;
 }
 
-body{}
+body{
+    font-family: 'Baloo 2', cursive;
+    font-weight: 500;
+}
 
 .container{
-    border: 1px solid black;
+    border: 3px solid black;
     width: 70%;
     min-width: 600px;
     margin: 0 auto;
@@ -16,9 +19,17 @@ body{}
 
 header{}
 
-h1{}
+h1{
+    text-align: center;
+    color: #E53170;
+    font-weight: 900;
+    margin-top: 24px;
+    margin-bottom: 38px;
+}
 
-p{}
+p{
+    text-align: center;
+}
 
 main{}
 
