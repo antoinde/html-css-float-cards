@@ -31,6 +31,19 @@ p{
     text-align: center;
 }
 
-main{}
+main{
+    border: 3px solid purple;
 
-.floating_card{}
+}
+
+main::after{
+    content: '';
+    display: table;
+    clear:both;
+}
+
+.floating_card{
+    border: 3px solid black;
+    width: calc(100% / 3);
+    float: left;
+}
