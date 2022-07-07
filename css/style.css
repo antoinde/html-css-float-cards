@@ -11,7 +11,6 @@ body{
 }
 
 .container{
-    border: 3px solid black;
     width: 70%;
     min-width: 600px;
     margin: 0 auto;
@@ -31,19 +30,47 @@ p{
     text-align: center;
 }
 
-main{
-    border: 3px solid purple;
-
-}
+main{}
 
 main::after{
-    content: '';
+    content: "";
     display: table;
     clear:both;
 }
 
 .floating_card{
     border: 3px solid black;
-    width: calc(100% / 3);
+    background-color: #0F0E17;
+    /*effetto ombra*/
+    -webkit-box-shadow: 0px 0px 18px 1px #000000;
+    -moz-box-shadow: 0px 0px 18px 1px #000000;
+    -o-box-shadow: 0px 0px 18px 1px #000000;
+    box-shadow: 0px 0px 18px 1px #000000;
+    /* /effetto ombra*/
+    border-radius: 10px;
+    color: white;
+    width: calc(100% / 3 - 20px);
+    height: 80px;
     float: left;
+    margin: 20px 10px;
+}
+
+.floating_card a{
+    color: #7F92FF;
+}
+.floating_card a:hover{
+    cursor: pointer;
+}
+
+img{
+    height: 100%;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.img_card_text_area{
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    padding: 0 10px;
 }
